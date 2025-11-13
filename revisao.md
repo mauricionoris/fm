@@ -100,11 +100,11 @@ $$
 J(w) = (w - 3)^2 + 2
 $$
 
-O objetivo é **encontrar o valor de (w)** que **minimiza (J(w))**, usando **gradiente descendente** com taxa de aprendizado (\eta = 0{,}1).
+O objetivo é **encontrar o valor de (w)** que **minimiza (J(w))**, usando **gradiente descendente** com taxa de aprendizado ($\eta = 0{,}1$).
 O gradiente é dado por
-[
+$$
 \nabla J(w) = 2(w - 3)
-]
+$$
 
 ---
 
@@ -133,9 +133,9 @@ A tabela abaixo mostra as 4 primeiras iterações já calculadas:
    **Pergunta:** o que isso significa em termos de velocidade de aprendizado e aproximação do mínimo?
 
 3. **Tendência:**
-   Note que (w_t) está se aproximando de 3.
-   **Pergunta:** se continuarmos aplicando o mesmo processo, qual seria **aproximadamente** o próximo valor (w_4)?
-   (Dica: use a regra (w_{t+1} = w_t - 0{,}1 \times 2(w_t - 3)))
+   Note que ($w_t$) está se aproximando de 3.
+   **Pergunta:** se continuarmos aplicando o mesmo processo, qual seria **aproximadamente** o próximo valor ($w_4$)?
+   (Dica: use a regra $w_{t+1} = w_t - 0{,}1 \times 2(w_t - 3)$)
 
 4. **Sentido da convergência:**
    Quando o gradiente ficar muito próximo de zero, o que isso significa?
